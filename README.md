@@ -15,15 +15,15 @@ A **Smart Wireless Water Meter** that monitors water consumption, ensures water 
 ---
 
 ## 🛠️ Tech Stack
-| Component                   | Technology Used         |
-|-----------------------------|-------------------------|
-| **Microcontroller**         | ESP32                   |
-| **Water Flow Sensor**       | FS400                   |
-| **Water Quality Sensor**    | TDS Sensor              |
-| **Tank Level Sensor**       | Ultrasonic Sensor       |
-| **Communication**           | Wi-Fi (ESP32)           |
-| **Cloud Platform**          | ThingSpeak              |
-| **Software**                | Arduino IDE, Embedded C |
+| Component                      | Technology Used            |
+|--------------------------------|----------------------------|
+| **Microcontroller**            | ESP32                      |
+| **Water Flow Sensor**          | FS400                      |
+| **Water Quality Sensor**       | TDS Sensor                 |
+| **Tank Level Sensor**          | Ultrasonic Sensor          |
+| **Communication**              | Wi-Fi (ESP32)              |
+| **Cloud Platform**             | ThingSpeak                 |
+| **Software**                   | Arduino IDE, Embedded C    |
 
 ---
 
