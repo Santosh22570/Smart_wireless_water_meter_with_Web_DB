@@ -73,11 +73,7 @@ A **Smart IoT-based Water Metering System** that enables real-time monitoring of
 ## 💻 Firmware Installation
 
 1. Install **Arduino IDE** and add board support for ESP32.
-2. Install libraries:
-   ```cpp
-   #include <WiFi.h>
-   #include <ThingSpeak.h>
-   #include <ArduinoJson.h>
+2. Install libraries
 3. Upload the respective firmware to:
    - ESP32: for Wi-Fi and ThingSpeak communication
    - Arduino UNO: for reading and preprocessing sensor data
@@ -91,7 +87,6 @@ A **Smart IoT-based Water Metering System** that enables real-time monitoring of
 
 1. Create a new **[ThingSpeak Channel](https://thingspeak.mathworks.com/)**
 2. Add the following fields:
-   - Flow Rate
    - TDS Level
    - pH Level
 3. Copy the Write API Key and use it in your ESP32 code.
@@ -134,22 +129,22 @@ A **Smart IoT-based Water Metering System** that enables real-time monitoring of
 ### 💧 Flow Rate
 Real-time flow rate monitoring using FS400 sensor.
 
-![Flow Rate Result](Images/water%20flow%20result.png)
+![Flow Rate Result](Images/water_flow_result.png)
 
 ### 🌫 TDS (Water Quality)
 TDS module captures Total Dissolved Solids in water and sends values to ThingSpeak.
 
-![TDS Result](Images/Turbidity%20result.png)
+![TDS Result](Images/Turbidity_result.png)
 
 ### 🧪 pH Level
 The pH sensor with amplifier circuit helps determine the acidity or alkalinity of water.
 
-![pH Result](Images/PH%20result.png)
+![pH Result](Images/PH_result.png)
 
 ### 🌐 ThingSpeak Dashboard
 Live analytics with charts for all monitored parameters.
 
-![ThingSpeak Channel](Images/thingspeak%20channel.png)
+![ThingSpeak Channel](Images/thingspeak_preview.png)
 
 ### 🧱 Working Prototype
 Physical setup of the smart water metering system using ESP32, Arduino UNO, and sensors.
